@@ -1,0 +1,90 @@
+/* styles.css */
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #4db6ac, #009688);
+}
+
+.container {
+  
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.logo {
+    margin-right: 10px; 
+    display: flex;
+    align-items: center; 
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+/* Estilos del navbar */
+.navbar {
+    margin-top: auto;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con opacidad */
+    color: #009688; /* Color de texto en el navbar */
+    padding: 10px 0; /* Aumentamos el espacio interno para el contenido */
+    width: 100%;
+    z-index: 1;
+    position: static; /* Cambiamos a posición estática */
+}
+
+.navbar h1 {
+    text-align: center;
+    margin: 0;
+    color: #009688;
+    font-size: 24px; /* Reducimos el tamaño de la fuente */
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+.menu li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #009688;
+    font-weight: bold;
+}
+
+/* Estilos para secciones */
+section {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin-top: 20px; /* Pequeño margen superior para separar del navbar */
+}
+
+section h2 {
+    margin: 0;
+}
+
+/* Estilos para los doctores */
+.doctor {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.doctor img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background: linear-gradient(to bottom, #009688, #00796b);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
