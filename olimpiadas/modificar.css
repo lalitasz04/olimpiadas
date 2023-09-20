@@ -1,0 +1,39 @@
+.background-image {
+    background-image: url('hospital2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+}
+
+/* Estilo básico para el contenedor de botones */
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+  
+  /* Estilos para los botones */
+.button {
+    position: relative;
+    padding: 10px 15px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #7097b8;
+    color: #ffffff;
+    text-decoration: none; /* Quita la subrayado de los enlaces */
+    transition: background-color 0.3s, color 0.3s;
+}
+  
+  /* Estilos al pasar el ratón sobre los botones */
+.button:hover {
+    background-color: #253c68;
+    color: #ffffff;
+}
+  
