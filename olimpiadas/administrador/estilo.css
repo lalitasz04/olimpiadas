@@ -1,0 +1,59 @@
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin: 0;
+    height: 100%;
+}
+
+
+
+/* ... Otros estilos ... */
+
+
+.h1{
+    font-family:Arial, Helvetica, sans-serif ;
+    text-align:center;
+}
+
+.background-image {
+    background-image: url('img/hospital2.jpg'); /* Reemplaza 'background-image.jpg' con la URL de tu imagen */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Coloca la imagen en el fondo */
+}
+
+
+
+/* Estilo básico para el contenedor de botones */
+.button-container {
+    text-align:left;
+    margin-top: 20px;
+}
+  
+  /* Estilos para los botones */
+.button {
+    padding: 10px 15px;
+    margin: 0px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #7097b8;
+    color: #ffffff;
+    text-decoration: none; /* Quita la subrayado de los enlaces */
+    transition: background-color 0.3s, color 0.3s;
+}
+  
+  /* Estilos al pasar el ratón sobre los botones */
+.button:hover {
+    background-color: #253c68;
+    color: #ffffff;
+}
+  
+    
