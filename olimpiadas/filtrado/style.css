@@ -1,0 +1,14 @@
+table{
+    border-collapse:collapse ;
+}
+
+table,
+th,
+td{
+    border: 1px solid blue;
+}
+
+a{
+    color:bisque;
+    font-size: 2rem;
+}
