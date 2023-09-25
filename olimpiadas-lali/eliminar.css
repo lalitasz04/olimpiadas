@@ -1,0 +1,32 @@
+body{
+    background-color:rgb(81, 126, 139);
+    text-align: center;
+    text-decoration:none;
+}
+nav {
+    background: (0,0,0);
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px;
+    color: azure;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.contenido {
+    padding: 20px;
+}
+nav a:hover {
+    color: #FFA52C;
+}
+

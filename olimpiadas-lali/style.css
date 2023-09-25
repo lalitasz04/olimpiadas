@@ -1,0 +1,197 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #4db6ac, #009688);
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgba(255, 255, 255, 0.8); 
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.hospital-icon {
+    width: 40px;
+    height: 40px;
+    background-image: url('OIP.jpeg'); 
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.hospital-name {
+    font-weight: bold;
+}
+
+
+
+.hospital-background {
+    background-image: url('hospital.jpeg'); 
+    background-size: cover; 
+    background-position: center;
+    color: black;
+    text-align: center; 
+    padding: 100px 0;
+    background-attachment: fixed;
+}
+
+
+.hospital-background::after {
+    content: "";
+    background: inherit;
+    opacity: 0.5; 
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);
+    min-width: 160px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    
+    
+}
+.navbar-right:hover .dropdown-content{
+    display: block; 
+}
+
+.dropdown-item {
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    display: block;
+    left: 10px; 
+    
+}
+.pacientes{
+    padding-right: 80px;
+
+    text-decoration: none;
+    color: #333;
+    display: block;
+    left: 10px;
+
+
+}
+.dropdown-item:hover {
+    background-color:#009688 ;
+    color: #fff; 
+    
+}
+
+.menu {
+    
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+.menu li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #009688;
+    font-weight: bold;
+}
+
+/* Estilos para secciones */
+section {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+section h2 {
+    margin: 0;
+}
+
+
+.doctor {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.doctor img {
+    max-width: 100%;
+    max-height: 200px; 
+    border-radius: 80%;
+}
+
+footer {
+    position: relative; 
+    background-size: auto; 
+    background-repeat: no-repeat; 
+    background-position: right bottom; 
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    animation: moverFondo 10s linear infinite;
+}
+
+
+footer::before {
+    content: "";
+    background-image: url('ambulancia.png'); 
+    background-size: 40px auto; 
+    width: 40px; 
+    height: 40px; 
+    position: absolute; 
+    right: 10px;
+    bottom: 10px; 
+    animation: moverGIF 8s linear infinite; 
+}
+
+@keyframes moverFondo {
+    0% {
+        background-position: 0 100%;
+    }
+    100% {
+        background-position: 100% 100%; 
+    }
+}
+
+
+@keyframes moverGIF {
+    0% {
+        left: calc(100% - 40px); 
+    }
+    100% {
+        left: 0; 
+    }
+}
+
