@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital San Juan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-left">
+            <div class="hospital-icon"></div>
+            <div class="hospital-name">Hospital San Juan</div>
+        </div>
+        <!-- Botón y menú desplegable para "Pacientes" -->
+        <div class="dropdown">
+            <button class="dropdown-button"> Pacientes</button>
+            <div class="dropdown-content">
+                <a href="form.html">Registro de Turno</a>
+                <a href="administrador.php">Administracion</a>
+                <a href="consulta.php">Registro de llamadas</a>
+            </div>
+        </div>
+
+        <!-- Botón y menú desplegable para "Áreas" -->
+        <div class="dropdown last-dropdown"> <!-- Aplica la clase last-dropdown aquí -->
+            <button>Áreas</button>
+            <div class="dropdown-content">
+                <a href="area1.php">Cirugía</a>
+                <a href="area2.php">Cardiología</a>
+                <a href="area3.php">Pediatría</a>
+                <a href="area4.php">Ginecología</a>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="content">
+        <section id="inicio" class="hospital-background">
+            <div class="container">
+                <h2>¡Bienvenido al Hospital San Juan!</h2>
+                <p>Somos un hospital comprometido con la atención médica de calidad y el bienestar de nuestros pacientes.</p>
+        
+            </div>
+        </section>
+
+        <section id="servicios">
+            <div class="container">
+                <h2>Servicios:</h2>
+                <ul>
+                    <li> Consultorios médicos</li>
+                    <li> Sala de Cirugía</li>
+                    <li> Sala de Cardiología</li>
+                    <li> Sala de Pediatría</li>
+                    <li> Sala de Ginecología</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="doctores">
+            <div class="container">
+                <h2>Nuestros Doctores:</h2>
+                <div class="doctor">
+                    <img src="doctor.jpg" alt="Doctor 1">
+                    <h3>Dr.Marcos Gomez</h3>
+                    <p>Especialista en cardiología</p>
+                </div>
+                <div class="doctor">
+                    <img src="doctora.jpg" alt="Doctor 2">
+                    <h3>Dra.Julia Rodrigez</h3>
+                    <p>Especialista en cirugía</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <div class="container">
+                <h2>Contacto</h2>
+                <p>Estamos ubicados en:</p>
+                <address>
+                    <p>Dirección: Calle Principal, Ciudad</p>
+                    <p>Teléfono: (123) 456-7890</p>
+                    <p>Email: info@hospitalsanjuan.com</p>
+                </address>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Hospital San Juan. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
