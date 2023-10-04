@@ -15,7 +15,7 @@
         
         <div class="navbar-left">
             <div class="hospital-icon"></div>
-            <div class="hospital-name">Hospital San Juan</div>
+            <div class="hospital-name">Hospital de Tucumán</div>
         </div>
 
     <div class="button-container">
