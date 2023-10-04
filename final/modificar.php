@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-    <title> Index de Imagenes </title>
+    <title> Modificar </title>
     <link rel="stylesheet" href="modificar.css">
     
 </head>
