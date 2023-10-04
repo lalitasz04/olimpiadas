@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-    <title> Index de Imagenes </title>
+    <title> GUARDAR REGISTRO</title>
     <link rel="stylesheet" href="estilogu.css">
     
 </head>
