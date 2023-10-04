@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-    <title> Index de Imagenes </title>
+    <title> Guardar formulario </title>
     <link rel="stylesheet" href="estilogur.css">
     
 </head>
