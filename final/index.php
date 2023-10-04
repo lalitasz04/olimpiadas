@@ -8,7 +8,7 @@
   <div class="background-image"></div>
     
   <div class="login-container">
-    <h2>Hospital San Juan</h2>
+    <h2>Hospital de Tucumán</h2>
 
     <form action="guarusuario.php" method="POST"  enctype="multipart/form-data" class="form" >
         <label for="username">Usuario</label>
